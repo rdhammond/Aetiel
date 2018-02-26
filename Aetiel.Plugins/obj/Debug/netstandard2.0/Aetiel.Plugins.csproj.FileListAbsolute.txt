@@ -1,0 +1,8 @@
+c:\Users\dhammond\src\aetiel\Aetiel.Plugins\obj\Debug\netstandard2.0\Aetiel.Plugins.csproj.CoreCompileInputs.cache
+c:\Users\dhammond\src\aetiel\Aetiel.Plugins\obj\Debug\netstandard2.0\Aetiel.Plugins.AssemblyInfoInputs.cache
+c:\Users\dhammond\src\aetiel\Aetiel.Plugins\obj\Debug\netstandard2.0\Aetiel.Plugins.AssemblyInfo.cs
+c:\Users\dhammond\src\aetiel\Aetiel.Plugins\bin\Debug\netstandard2.0\Aetiel.Plugins.deps.json
+c:\Users\dhammond\src\aetiel\Aetiel.Plugins\bin\Debug\netstandard2.0\Aetiel.Plugins.dll
+c:\Users\dhammond\src\aetiel\Aetiel.Plugins\bin\Debug\netstandard2.0\Aetiel.Plugins.pdb
+c:\Users\dhammond\src\aetiel\Aetiel.Plugins\obj\Debug\netstandard2.0\Aetiel.Plugins.dll
+c:\Users\dhammond\src\aetiel\Aetiel.Plugins\obj\Debug\netstandard2.0\Aetiel.Plugins.pdb

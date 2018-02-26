@@ -1,0 +1,15 @@
+c:\Users\dhammond\src\aetiel\Aetiel.Plugins.Tests\obj\Debug\netcoreapp2.0\Aetiel.Plugins.Tests.csproj.CoreCompileInputs.cache
+c:\Users\dhammond\src\aetiel\Aetiel.Plugins.Tests\obj\Debug\netcoreapp2.0\Aetiel.Plugins.Tests.AssemblyInfoInputs.cache
+c:\Users\dhammond\src\aetiel\Aetiel.Plugins.Tests\obj\Debug\netcoreapp2.0\Aetiel.Plugins.Tests.AssemblyInfo.cs
+C:\Users\dhammond\src\aetiel\Aetiel.Plugins.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\dhammond\src\aetiel\Aetiel.Plugins.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\dhammond\src\aetiel\Aetiel.Plugins.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\dhammond\src\aetiel\Aetiel.Plugins.Tests\bin\Debug\netcoreapp2.0\Aetiel.Plugins.Tests.deps.json
+C:\Users\dhammond\src\aetiel\Aetiel.Plugins.Tests\bin\Debug\netcoreapp2.0\Aetiel.Plugins.Tests.runtimeconfig.json
+C:\Users\dhammond\src\aetiel\Aetiel.Plugins.Tests\bin\Debug\netcoreapp2.0\Aetiel.Plugins.Tests.runtimeconfig.dev.json
+C:\Users\dhammond\src\aetiel\Aetiel.Plugins.Tests\bin\Debug\netcoreapp2.0\Aetiel.Plugins.Tests.dll
+C:\Users\dhammond\src\aetiel\Aetiel.Plugins.Tests\bin\Debug\netcoreapp2.0\Aetiel.Plugins.Tests.pdb
+C:\Users\dhammond\src\aetiel\Aetiel.Plugins.Tests\bin\Debug\netcoreapp2.0\Aetiel.Plugins.dll
+C:\Users\dhammond\src\aetiel\Aetiel.Plugins.Tests\bin\Debug\netcoreapp2.0\Aetiel.Plugins.pdb
+C:\Users\dhammond\src\aetiel\Aetiel.Plugins.Tests\obj\Debug\netcoreapp2.0\Aetiel.Plugins.Tests.dll
+C:\Users\dhammond\src\aetiel\Aetiel.Plugins.Tests\obj\Debug\netcoreapp2.0\Aetiel.Plugins.Tests.pdb
