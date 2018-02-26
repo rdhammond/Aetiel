@@ -4,6 +4,6 @@ namespace Aetiel.Plugins.Interfaces
 {
     public interface ILoadPlugin : IPlugin
     {
-        bool Transform(ICollection<object> tranformed);
+        bool Transform(IEnumerable<object> tranformed);
     }
 }

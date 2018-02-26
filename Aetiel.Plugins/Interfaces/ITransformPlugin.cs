@@ -4,6 +4,6 @@ namespace Aetiel.Plugins.Interfaces
 {
     public interface ITransformPlugin : IPlugin
     {
-        ICollection<object> Transform(ICollection<object> extracted);
+        IEnumerable<object> Transform(IEnumerable<object> extracted);
     }
 }
