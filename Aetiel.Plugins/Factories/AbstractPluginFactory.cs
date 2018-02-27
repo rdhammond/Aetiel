@@ -59,7 +59,7 @@ namespace Aetiel.Plugins.Factories
             }
 
             var factory = (IPluginFactory)factoryCtor.Invoke(null);
-            var instance = factory.Create(pluginParams);
+            var instance = factory.Create();
             if (!(instance is TExpected))
             {
                 (instance as IDisposable)?.Dispose();

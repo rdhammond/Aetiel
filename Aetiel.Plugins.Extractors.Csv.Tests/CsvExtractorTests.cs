@@ -45,7 +45,7 @@ namespace Aetiel.Plugins.Extractors.Csv.Tests
                     }
                 }).ToArray();
                 Assert.NotNull(extracted);
-                Assert.Equal(1, extracted.Length);
+                Assert.True(extracted.Length == 1);
 
                 var extractedObj = extracted.First() as CsvClass1;
                 Assert.NotNull(extractedObj);
@@ -81,7 +81,7 @@ namespace Aetiel.Plugins.Extractors.Csv.Tests
                 var extractor = new CsvExtractor();
                 var extracted = extractor.Extract(new CsvExtractorParams { Files = files }).ToArray();
                 Assert.NotNull(extracted);
-                Assert.Equal(2, extracted.Length);
+                Assert.True(extracted.Length == 2);
 
                 var class1Obj = extracted[0] as CsvClass1;
                 Assert.NotNull(class1Obj);

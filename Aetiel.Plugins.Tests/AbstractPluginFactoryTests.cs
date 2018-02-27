@@ -13,7 +13,7 @@ namespace Aetiel.Plugins.Tests
     {
         private class PluginFactoryStub : IPluginFactory
         {
-            public IPlugin Create(IPluginParams pluginParams)
+            public IPlugin Create()
             {
                 return null;
             }
@@ -25,7 +25,7 @@ namespace Aetiel.Plugins.Tests
         public class FactoryStub<T> : IPluginFactory
             where T : class, IPlugin
         {
-            public IPlugin Create(IPluginParams pluginParams)
+            public IPlugin Create()
             {
                 return new Mock<T>().Object;
             }
