@@ -7,7 +7,9 @@ namespace Aetiel.Plugins.Factories
 {
     public static class AbstractPluginFactory
     {
-        public static AbstractPluginFactoryInstance Instance => new AbstractPluginFactoryInstance();
+        private readonly static AbstractPluginFactoryInstance _instance = new AbstractPluginFactoryInstance();
+
+        public static AbstractPluginFactoryInstance Instance => _instance;
     }
 
     public class AbstractPluginFactoryInstance

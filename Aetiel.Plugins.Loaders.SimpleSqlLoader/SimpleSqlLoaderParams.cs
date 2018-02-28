@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.Common;
 using Aetiel.Plugins.Interfaces;
 
@@ -9,17 +10,22 @@ namespace Aetiel.Plugins.Loaders.SimpleSqlLoader
     {
         public class Error
         {
-            public Exception Exception { get; set; }
-            public object Object { get; set; }
+            public object Entity { get; }
+            public Exception Exception { get; }
+
+            public Error(object entity, Exception exception)
+            {
+                Entity = entity;
+                Exception = exception;
+            }
         }
 
-        public DbProviderFactory ConnectionFactory { get; }
+        public string DbType { get; }
         public string ConnectionString { get; }
-        public List<Error> Errors { get; } = new List<Error>();
+        public IReadOnlyCollection<Error> Errors { get; set; }
 
-        public SimpleSqlLoaderParams(DbProviderFactory connectionFactory, string connectionString)
+        public SimpleSqlLoaderParams(string dbType, string connectionString)
         {
-            ConnectionFactory = connectionFactory;
             ConnectionString = connectionString;
         }
     }

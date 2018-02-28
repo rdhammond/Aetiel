@@ -1,5 +1,8 @@
 using System;
+using System.Data;
+using System.Data.Common;
 using Xunit;
+using Moq;
 
 namespace Aetiel.Plugins.Loaders.SimpleSqlLoader.Tests
 {
@@ -7,7 +10,8 @@ namespace Aetiel.Plugins.Loaders.SimpleSqlLoader.Tests
     {
         [Fact]
         public void LoadShouldStoreInTables()
-        { }
+        {
+        }
 
         [Fact]
         public void LoadShouldWorkOnMultipleTables()

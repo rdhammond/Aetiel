@@ -2,9 +2,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Aetiel.Plugins\Aetiel.Plugins.csproj" />
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="dapper" Version="1.50.4" />
-  </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>

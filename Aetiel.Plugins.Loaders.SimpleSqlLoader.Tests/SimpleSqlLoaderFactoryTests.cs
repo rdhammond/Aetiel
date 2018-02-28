@@ -1,6 +1,7 @@
 using System;
 using Xunit;
 using Aetiel.Plugins.Loaders.SimpleSqlLoader;
+using Moq;
 
 namespace Aetiel.Plugins.Loaders.SimpleSqlLoader.Tests
 {
@@ -9,7 +10,8 @@ namespace Aetiel.Plugins.Loaders.SimpleSqlLoader.Tests
         [Fact]
         public void CreateInstantiatesSimpleSqlLoader()
         {
-            var factory = new SimpleSqlLoaderFactory();
+            var dbFactory = new Mock<IAbstractDbFactory>();
+            var factory = new SimpleSqlLoaderFactory(new Mock<IAbstractDbFactory>().Object);
             var loader = factory.Create();
 
             Assert.NotNull(loader);
